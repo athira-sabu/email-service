@@ -6,6 +6,7 @@ This project is an email service that uses Mailgun to send emails. The service i
 - Configure the service using environment variables
 
 ## Configuration
+Create a .env file in the root of the project and add your Mailgun API key and domain:
 ````
 MAILGUN_API_KEY=your-mailgun-api-key
 MAILGUN_DOMAIN=your-mailgun-domain
